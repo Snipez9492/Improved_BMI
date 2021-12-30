@@ -51,7 +51,7 @@ Button(
     padx=10,
     pady=5,
     command=get_info
-).pack()
+).pack(pady=10)
 
 Button(
     ws,
@@ -59,7 +59,7 @@ Button(
     padx=10,
     pady=5,
     command=clear_field
-).pack()
+).pack(pady=10)
 
 Button(
     ws,
@@ -67,5 +67,5 @@ Button(
     padx=10,
     pady=5,
     command=close_window
-).pack()
+).pack(pady=10)
 ws.mainloop()
